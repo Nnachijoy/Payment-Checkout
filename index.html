@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Checkout</title>
 <link rel="stylesheet" href="./index.css">
+<script src="./index.js"></script>
 
 </head>
 <body>
@@ -17,16 +18,18 @@
           <img src="img/atm.jpg" class="card-image" alt="">
         </div>
         <div>
-          <input type="text" placeholder="CARD NUMBER" class="form-input" name="cardNumber">
+         <input type="text" class="form-input" name="cardNumber" placeholder="0000 0000 0000 0000">
+
+
           <div class="error-message"></div>
         </div>
         <div style="display: flex;">
           <div>
-            <input type="text" placeholder="Card Expiry" class="form-input expiry" name="cardExpiry">
+            <input type="text" placeholder="MM / YY" class="form-input expiry" name="cardExpiry">
             <div class="error-message"></div>
           </div>
           <div>
-            <input type="text" placeholder="CVV" class="form-input cvv" name="cvv">
+            <input type="text" placeholder="123" class="form-input cvv" name="cvv">
             <div class="error-message"></div>
           </div>
         </div>

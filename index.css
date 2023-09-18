@@ -41,6 +41,8 @@ body {
     width: 100%;
     max-width: 200px;
   }
+ 
+ 
 
   .form-input {
     width: calc(100% - 0.5rem);
@@ -57,7 +59,7 @@ body {
   }
 
   .form-input.expiry {
-    margin-right: 0.5rem;
+    margin-right: 2rem;
   }
 
   .form-input.cvv {
